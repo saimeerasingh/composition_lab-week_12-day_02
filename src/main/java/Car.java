@@ -1,4 +1,6 @@
-public class Car extends Vehicle {
+import behaviours.IOwn;
+
+public class Car extends Vehicle implements IOwn {
 
     private String fuelType;
 
@@ -9,5 +11,10 @@ public class Car extends Vehicle {
 
     public String getFuelType() {
         return fuelType;
+    }
+
+    @Override
+    public String carOwned(String carOwned) {
+        return null;
     }
 }
