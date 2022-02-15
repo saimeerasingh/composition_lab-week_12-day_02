@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="composition_lab-week_12-day_02" />
         <module name="composition_lab" />
       </profile>
     </annotationProcessing>

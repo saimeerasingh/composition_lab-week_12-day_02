@@ -12,4 +12,12 @@ public class Vehicle {
         this.ownedCars = ownedCars;
         this.carsInStock = carsInStock;
     }
+
+    public IOwn getOwnedCars() {
+        return ownedCars;
+    }
+
+    public IStock getCarsInStock() {
+        return carsInStock;
+    }
 }
