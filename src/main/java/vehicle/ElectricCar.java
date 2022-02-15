@@ -1,4 +1,7 @@
+package vehicle;
+
 import behaviours.IOwn;
+import vehicle.CarType;
 
 public class ElectricCar extends CarType implements IOwn {
 

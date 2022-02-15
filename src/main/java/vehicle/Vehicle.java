@@ -1,3 +1,5 @@
+package vehicle;
+
 import behaviours.IOwn;
 import behaviours.IStock;
 

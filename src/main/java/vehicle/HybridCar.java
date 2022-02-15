@@ -1,4 +1,7 @@
+package vehicle;
+
 import behaviours.IOwn;
+import vehicle.CarType;
 
 public class HybridCar extends CarType implements IOwn {
 

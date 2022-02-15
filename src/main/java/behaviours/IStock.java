@@ -1,7 +1,9 @@
 package behaviours;
 
+import vehicle.Vehicle;
+
 public interface IStock {
 
-    String inStock(String car);
+    String inStock(Vehicle vehicle);
 
 }

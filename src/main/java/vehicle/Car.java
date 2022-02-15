@@ -1,3 +1,5 @@
+package vehicle;
+
 import behaviours.IOwn;
 
 public class Car extends CarType implements IOwn {

@@ -1,3 +1,5 @@
+package vehicle;
+
 public abstract class CarType {
     private int price;
     private String color;
