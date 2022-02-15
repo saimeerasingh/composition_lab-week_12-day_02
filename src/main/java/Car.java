@@ -1,6 +1,6 @@
 import behaviours.IOwn;
 
-public class Car extends Vehicle implements IOwn {
+public class Car extends CarType implements IOwn {
 
     private String fuelType;
 
